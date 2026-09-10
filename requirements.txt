@@ -1,0 +1,27 @@
+# 고급딥러닝 실습코드 의존성 (Advanced Deep Learning practice code)
+# 설치:  pip install -r requirements.txt
+# GPU 사용 시 PyTorch는 https://pytorch.org 의 CUDA 빌드 설치를 권장합니다.
+
+# --- Core (전 주차 공통) ---
+torch>=2.0
+torchvision>=0.15
+
+# --- HuggingFace 생태계 ---
+transformers>=4.40
+datasets>=2.18
+diffusers>=0.27
+accelerate>=0.29
+
+# --- 비전 백본 ---
+timm>=0.9
+
+# --- 유틸리티 ---
+numpy>=1.24
+scipy>=1.10
+Pillow>=9.5
+matplotlib>=3.7
+scikit-learn>=1.3
+
+# --- 노트북 실행 ---
+jupyter>=1.0
+ipykernel>=6.29
